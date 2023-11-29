@@ -56,12 +56,13 @@ const BakeryContainer = () => {
 
 return (
         <>
-            <h1>Welcome to <u>React Bakery ⚛</u></h1>
+            <h1>Welcome to Tom's <u>React</u><div id="atom">⚛</div><u>Bakery</u></h1>
+            <hr></hr>
             <h2>Cakes:</h2>
             <Cake title={'Tea Loaf'} cake={teaLoaf}/>
             <Cake title={'Victoria Sponge'} cake={victoriaSponge}/>
             <Cake title={'Carrot Cake'} cake={carrotCake}/>
-            <AverageRating cakes={cakeArray}/>
+            <h2>Average Bakery Rating: <span><AverageRating cakes={cakeArray}/></span> 👨‍🍳</h2>
 
             
 

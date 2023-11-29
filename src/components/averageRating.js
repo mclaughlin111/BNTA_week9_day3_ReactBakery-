@@ -10,7 +10,7 @@ const AverageRating = ({cakes}) => {
          ratings += cake.rating;  
     });
 
-    ratings = (ratings/cakes.length).toFixed(1)
+    ratings = (ratings/cakes.length).toFixed(1.5)
 
 console.log(ratings/(cakes.length));
 
